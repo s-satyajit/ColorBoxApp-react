@@ -1,33 +1,23 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import Callback from './Callback'; // Ensure Callback is imported
 
 function App() {
+  const [UIcolor, setUIColor] = useState('');
 
-  const [color, setColor] = useState('')
-
-  const handleOnChange = (e) => {
-    setColor(e.target.value)
+  // our callback function
+  const xetColor = (color) => {
+    setUIColor(color);
   }
-``
-  return (
 
-    <>
-      <input 
-      type="text" 
-      className='w-[500px] h-[200px] m-5 p-10'
-      readOnly
-      placeholder='Color of the input box'
-      style={{backgroundColor: `${color}`}}
-      />
-      <br />
-      <input 
-      type="text" 
-      className='w-200 h-5 p-1'
-      placeholder='Input Colour'
-      onChange={handleOnChange}
-      />
-    </>
-  )
+  return (
+    <div className='App'>
+      <div className='App_color_container'
+        style={{ background: `${UIcolor}` }}
+      ></div>
+      <Callback zetColor={xetColor} />
+    </div>
+  );
 }
 
-export default App
+export default App;

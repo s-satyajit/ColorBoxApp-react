@@ -6,8 +6,8 @@ function App() {
   const [UIcolor, setUIColor] = useState('');
 
   // our callback function
-  const xetColor = (color) => {
-    setUIColor(color);
+  const xetColor = (dolor) => {
+    setUIColor(dolor);
   }
 
   return (

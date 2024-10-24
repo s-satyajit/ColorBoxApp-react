@@ -1,8 +1,22 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```ColorBoxApp-reactjs``` is a simple, intuitive app is featuring two interactive boxes - one for selecting a color and another for inputting the color name.
 
-Currently, two official plugins are available:
+## Features
+- Interactive color selection
+- Dynamic color name input
+- Real-time display
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+1. Clone the repository: ```git clone```
+```https:github.com/s-satyajit/ColorBoxApp-reactjs.git```
+2. Navigate to the project directory: ```cd ColorBoxApp-reactjs```
+3. To run the project, hit: ```npm run dev```
+
+## Usage
+- Select a color from the color picker box.
+- Enter the name of the selected color in the input box.
+- See the real-time display of the selected color and its name.
+
+## Contributing
+Feel free to fork this repository and make your improvements. Pull requests are welcome!
